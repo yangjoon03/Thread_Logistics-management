@@ -7,7 +7,9 @@
 ## Thread Tutorial Function (1.함수)
   * 쓰레드 생성 , 파라미터 : thread variable_name(function , parameter); 일반적인 함수호출과는 다름.
   * 쓰레드 종료 : variable_name.join();
-
+```cpp
+thread variable_name(function , parameter);
+```
 <br>
 
 ## Thread Tutorial Pointer(2.포인터)
@@ -15,5 +17,14 @@
  * 연산이 끝나기전 다른 쓰레드의 참조로 문제 발생.
  * 해결 방법 : 뮤텍스
 
+## Thread Tutorial Mutex(3.뮤텍스)
+ * 쓰레드들간의 동기화
+ * 2.포인터 문제를 해결
+```cpp
+#include <mutex>
+mutex mtx;
 
-
+mtx.lock(); //잠금
+mtx.unlock(); //잠금 해제
+```
+   
