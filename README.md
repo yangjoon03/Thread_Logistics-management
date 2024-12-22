@@ -16,6 +16,7 @@ thread variable_name(function , parameter);
  * 변수 하나를 3개의 쓰레드가 공유
  * 연산이 끝나기전 다른 쓰레드의 참조로 문제 발생.
  * 해결 방법 : 뮤텍스
+<br>
 
 ## Thread Tutorial Mutex(3.뮤텍스)
  * 쓰레드들간의 동기화
