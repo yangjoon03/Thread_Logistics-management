@@ -4,5 +4,5 @@
  *  클래스에 대한 이해도가 부족할시 추가 공부 필요.
 <br>
 
-## Thread tutorial(C++ 튜토리얼)
-  * 
+## Thread tutorial(1.함수)
+  * 파라미터 '''c++ thread name(function,parameter); '''
