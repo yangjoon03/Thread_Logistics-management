@@ -7,6 +7,13 @@
 ## Thread tutorial(1.함수)
   * 쓰레드 생성 , 파라미터 : thread variable_name(function , parameter); 일반적인 함수호출과는 다름.
   * 쓰레드 종료 : variable_name.join();
-    
+  * 
+<br>
+
+## Thread Tutorial pointer(2.포인터)
+ * 변수 하나를 3개의 쓰레드가 공유
+ * 연산이 끝나기전 다른 쓰레드의 참조로 문제 발생.
+ * 해결 방법 : 뮤텍스
+
 
 
