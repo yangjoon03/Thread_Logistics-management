@@ -5,4 +5,8 @@
 <br>
 
 ## Thread tutorial(1.함수)
-  * 파라미터 '''c++ thread name(function,parameter); '''
+  * 쓰레드 생성 , 파라미터 : thread variable_name(function , parameter); 일반적인 함수호출과는 다름.
+  * 쓰레드 종료 : variable_name.join();
+    
+
+
