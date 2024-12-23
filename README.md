@@ -28,4 +28,8 @@ mutex mtx;
 mtx.lock(); //잠금
 mtx.unlock(); //잠금 해제
 ```
-   
+<br>
+
+## Thread Visualization(4.시각화)
+ * 클래스의 static에 대한 이해도 필요.
+ * 객체가 이동하는 속도에 대한 차이를 보여줌.
