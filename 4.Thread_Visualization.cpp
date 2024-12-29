@@ -61,9 +61,9 @@ void object::print() {
 
 
 int main() {
-    object S1(0, 0, 1,100);
-    object S2(0, 1, 2,200);
-    object S3(0, 2, 3,300);
+    object S1(0, 0, 1,1000);
+    object S2(0, 1, 2,2000);
+    object S3(0, 2, 3,4000);
 
     thread To1(&object::thread_move, &S1);
     thread To2(&object::thread_move, &S2);
