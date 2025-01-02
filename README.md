@@ -32,6 +32,8 @@ mtx.unlock(); //잠금 해제
 
 ## Thread Class(4.클래스)
  * 클래스에서 쓰래드 사용법.
+ * 값,주소의 차이
+ * 해당 클래스의 변수는 public으로 값의 변화를 확인함을 인지해야한다.
 ```cpp
 thread variable_name(&objet::function , parameter);
 thread variable_name(&objet::function , &parameter);
