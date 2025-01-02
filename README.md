@@ -30,10 +30,13 @@ mtx.unlock(); //잠금 해제
 ```
 <br>
 
-## Throead Class(4.클래스)
+## Thread Class(4.클래스)
  * 클래스에서 쓰래드 사용법.
- * 값과 주소의 차이 4-1 코드 참조.
- * 
+```cpp
+thread variable_name(&objet::function , parameter);
+thread variable_name(&objet::function , &parameter);
+```
+<br>
 
 ## Thread Visualization(5.시각화)
  * 클래스의 static에 대한 이해도 필요.
