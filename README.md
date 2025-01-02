@@ -41,4 +41,4 @@ thread variable_name(&objet::function , &parameter);
 ## Thread Visualization(5.시각화)
  * 클래스의 static에 대한 이해도 필요.
  * 객체가 이동하는 속도에 대한 차이를 시각화하여 보여줌.
- * Thread를 사용하지 않은 코드는 4-1 코드 참조.
+ * Thread를 사용하지 않은 코드는 5-1 코드 참조.
